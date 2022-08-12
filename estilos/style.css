@@ -38,3 +38,23 @@ section#telefone{
     width: 267px;
     height: 471px;
 }
+
+#redes-sociais{
+    margin: 5px;
+    padding: 10px;
+    text-align: right;
+}
+
+#redes-sociais > a > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 7px black;
+    box-sizing: border-box;
+}
+#redes-sociais img:hover{
+    border: 2px solid white ;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px black;
+    transition: 1s;
+}
